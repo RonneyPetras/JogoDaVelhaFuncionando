@@ -1,0 +1,67 @@
+*{
+    box-sizing: border-box;
+    font-size: 20px;
+    
+}
+#container{
+    width: 500px;
+    height: 500px;
+    background-color: black;
+    margin: auto;
+    margin-top: 70px;
+    padding: 5px;
+    vertical-align: middle;
+}
+.caixa{
+    width: 30%;
+    height: 30%;
+    background-color: white;
+    margin: 1.56%;
+    cursor: pointer;
+    color:lightgray
+}
+.caixa p{
+    padding: 0;
+    margin: 0px;
+    font-size: 6em;
+    font-family: verdana;
+    text-align: center;
+    color: darkblue;
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+}
+.flutuar{
+    float: left;
+}
+.arredondar{
+    border-radius: 10px;
+}
+#menu{
+    position: absolute;
+    background-color: gainsboro;
+    top:-40px;
+    left: 50%;
+    width: 300px;
+    text-align: center;
+    margin-left: -150px;
+    border-radius: 0 0 20px 20px;
+    box-shadow: 3px 3px 6px black;
+}
+#menu:hover{
+    top: -10px;
+    transition: all 0.9s;
+}
+#menu p{
+    cursor: pointer;
+    font-size: 1em;
+    font-weight: bold;
+    margin: auto;
+    padding: 17px;
+}
+.labelJogadores{
+    float: left;
+    margin-left: 10%;
+}

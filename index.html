@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <title>Jogo da velha2</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="estilo.css" rel="stylesheet" type="text/css">
+        <script src="js.js" type="text/javascript"></script>
+    </head>
+    <body>
+        <div id="menu">
+            <p id='nj' onclick= "novoJogo()">NOVO JOGO</p>
+        </div>
+             
+        <div id='container' class='arredondar'>
+            <div class="caixa flutuar arredondar" id="cel00"
+                onmouseout="mudarCor('cel00','white')"
+                onmouseover="mudarCor('cel00','lightgray')"
+                onclick= "inserirMarcacao('txt00','0','0')">
+                <p id="txt00"></p>
+            </div>
+
+            <div class="caixa flutuar arredondar" id='cel01'
+                onmouseout="mudarCor('cel01','white')"
+                onmouseover="mudarCor('cel01','lightgray')"
+                onclick= "inserirMarcacao('txt01','0','1')">  
+                <p id="txt01"></p>
+            </div>
+            
+            <div class="caixa flutuar arredondar" id="cel02"
+                onmouseout="mudarCor('cel02','white')"
+                onmouseover="mudarCor('cel02','lightgray')"
+                onclick= "inserirMarcacao('txt02','0','2')">  
+                <p id="txt02"></p>
+            </div>
+
+            <div class="caixa flutuar arredondar" id='cel10'
+                onmouseout="mudarCor('cel10','white')"
+                onmouseover="mudarCor('cel10','lightgray')"
+                onclick= "inserirMarcacao('txt10','1','0')">  
+                <p id="txt10"></p>
+            </div>
+            
+            <div class="caixa flutuar arredondar" id="cel11"
+                onmouseout="mudarCor('cel11','white')"
+                onmouseover="mudarCor('cel11','lightgray')"
+                onclick= "inserirMarcacao('txt11','1','1')">
+                <p id="txt11"></p>
+            </div>
+
+            <div class="caixa flutuar arredondar" id='cel12'
+                onmouseout="mudarCor('cel12','white')"
+                onmouseover="mudarCor('cel12','lightgray')"
+                onclick= "inserirMarcacao('txt12','1','2')"> 
+                <p id="txt12"></p>
+            </div>
+            
+            <div class="caixa flutuar arredondar" id="cel20"
+                onmouseout="mudarCor('cel20','white')"
+                onmouseover="mudarCor('cel20','lightgray')"
+                onclick= "inserirMarcacao('txt20','2','0')">  
+                <p id="txt20"></p>
+            </div>
+
+            <div class="caixa flutuar arredondar" id='cel21'
+                onmouseout="mudarCor('cel21','white')"
+                onmouseover="mudarCor('cel21','lightgray')"
+                onclick= "inserirMarcacao('txt21','2','1')"> 
+                <p id="txt21"></p>
+            </div>
+            
+            <div class="caixa flutuar arredondar" id="cel22"
+                onmouseout="mudarCor('cel22','white')"
+                onmouseover="mudarCor('cel22','lightgray')"
+                onclick= "inserirMarcacao('txt22','2','2')"> 
+                <p id="txt22"></p>
+            </div>
+           
+            
+     
+        </div> 
+        
+
+    </body>
+</html>
